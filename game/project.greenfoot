@@ -1,0 +1,15 @@
+#Greenfoot properties
+#Tue Apr 24 20:16:29 SGT 2018
+class.KANCIL.image=kancil baru.png
+class.MyWorld.image=baru1.jpg
+mainWindow.width=850
+class.KANCIL.superclass=greenfoot.Actor
+class.timun.image=timunbaru.png
+class.MyWorld.superclass=greenfoot.World
+project.charset=UTF-8
+version=3.0.0
+class.timun.superclass=greenfoot.Actor
+world.lastInstantiated=MyWorld
+mainWindow.y=40
+mainWindow.x=40
+mainWindow.height=600
