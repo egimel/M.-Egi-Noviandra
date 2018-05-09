@@ -29,6 +29,10 @@ public class MyWorld extends World
     
     private int myRandom(int x){
         return Greenfoot.getRandomNumber(x);
+        
+        
+        
+        
     }
 
 }
