@@ -14,6 +14,18 @@ public class MyWorld extends World
      * Constructor for objects of class MyWorld.
      * 
      */
+    int umur_terpendek = 150;
+    int range_umur = 300;
+    
+    public void act(){
+       if (cekTimunHabis())
+        populate();
+            
+    }
+
+    private boolean cekTimunHabis(){
+        return getObjects(timun.class).size() == 0;
+    }
     public MyWorld()
     {    
         
@@ -24,8 +36,12 @@ public class MyWorld extends World
     }
     
     private void populate(){
-        addObject(new timun(), myRandom(getWidth()), getHeight()-myRandom(getHeight()/2));
-    }
+        for (int i=0; i<3; i++){
+            int umur = umur_terpendek + Greenfoot.getRandomNumber(range_umur);
+            addObject(new timun(umur), myRandom(getWidth()), getHeight()-myRandom(getHeight()/2));
+        }
+   }
+
     
     private int myRandom(int x){
         return Greenfoot.getRandomNumber(x);

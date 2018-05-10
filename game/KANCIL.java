@@ -15,5 +15,17 @@ public class KANCIL extends Actor
     public void act() 
     {
         // Add your action code here.
+        if (Greenfoot.isKeyDown("up")) 
+            move(3);
+        if (Greenfoot.isKeyDown("down")) 
+            move(-3);
+        if (Greenfoot.isKeyDown("left")) 
+            turn(-3);
+        if (Greenfoot.isKeyDown("right")) 
+            turn(3);
+            
+        
+       
+        
     }    
 }
