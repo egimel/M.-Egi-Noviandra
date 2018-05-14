@@ -25,6 +25,11 @@ public class timun extends Actor
         umur--;
         if (isTouching(KANCIL.class))
             getWorld().removeObject(this);
+            
+            
+            
+            
+            
         if (umur == 0)
             getWorld().removeObject(this);
         
