@@ -14,10 +14,17 @@ public class timun extends Actor
      */
     int umur;
     public timun(){
+<<<<<<< HEAD
         umur = 200; // 2 detik
     }
     public timun(int umur){
         this.umur = umur; // 2 detik
+=======
+        umur = 200;
+    }
+      public timun(int umur){
+        this.umur = umur;
+>>>>>>> 09abf48110d7700f9fdc76a56bc89a0372bcba93
     }
     public void act() 
     {
@@ -25,8 +32,21 @@ public class timun extends Actor
         umur--;
         if (isTouching(KANCIL.class))
             getWorld().removeObject(this);
+<<<<<<< HEAD
         if (umur == 0)
             getWorld().removeObject(this);
         
    }    
+=======
+            
+            
+            
+            
+            
+        if (umur == 0)
+            getWorld().removeObject(this);
+        
+            
+    }    
+>>>>>>> 09abf48110d7700f9fdc76a56bc89a0372bcba93
 }
