@@ -27,9 +27,13 @@ public class KANCIL extends Actor
             turn(3);
             
         skor();
-       
-        
+       {
+       if (isTouching(kaktus.class)){
+           Greenfoot.stop();
+           getWorld().addObject(new go() , 300, 210);
+        }
     }
+}
     
     public void skor()
     {
