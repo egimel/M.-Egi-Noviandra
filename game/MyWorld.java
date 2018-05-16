@@ -16,11 +16,10 @@ public class MyWorld extends World
      */
     int umur_terpendek = 150;
     int range_umur = 300;
-    
+    kaktus kaktuus = new kaktus();
     public void act(){
        if (cekTimunHabis())
         populate();
-            
     }
 
     private boolean cekTimunHabis(){
@@ -40,9 +39,13 @@ public class MyWorld extends World
             int umur = umur_terpendek + Greenfoot.getRandomNumber(range_umur);
             addObject(new timun(umur), myRandom(getWidth()), getHeight()-myRandom(getHeight()/2));
         }
+        for (int i=0; i<3; i++){
+            int umur = umur_terpendek + Greenfoot.getRandomNumber(range_umur);
+            addObject(new kaktus(umur), myRandom(getWidth()), getHeight()-myRandom(getHeight()/2));
+        }
    }
 
-    
+
     private int myRandom(int x){
         return Greenfoot.getRandomNumber(x);
         
