@@ -25,6 +25,9 @@ public class MyWorld extends World
     private boolean cekTimunHabis(){
         return getObjects(timun.class).size() == 0;
     }
+    private boolean cekkaktusHabis(){
+        return getObjects(timun.class).size() == 0;
+    }
     public MyWorld()
     {    
         

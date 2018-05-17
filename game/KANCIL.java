@@ -28,18 +28,18 @@ public class KANCIL extends Actor
             
         skor();
        {
-       if (isTouching(kaktus.class)){
-           Greenfoot.stop();
-           getWorld().addObject(new go() , 300, 210);
+       if (isTouching(timun.class)){
+            skor++;
+            getWorld().showText("skor="+skor, 300, 300);
         }
     }
 }
     
     public void skor()
     {
-        if (isTouching(timun.class)){
-            skor++;
-            getWorld().showText("skor="+skor, 300, 300);
+        if (isTouching(kaktus.class)){
+           Greenfoot.stop();
+           getWorld().addObject(new go() , 300, 210);
         }
         
     }
