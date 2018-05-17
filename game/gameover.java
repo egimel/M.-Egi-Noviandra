@@ -17,5 +17,22 @@ public class gameover extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
+
+        prepare();
+    }
+
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        kemenu kemenu = new kemenu();
+        addObject(kemenu,438,293);
+        kemenu.setLocation(419,291);
+        kemenu.setLocation(417,298);
+        restart restart = new restart();
+        addObject(restart,169,301);
+        restart.setLocation(185,297);
     }
 }

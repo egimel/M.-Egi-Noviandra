@@ -26,9 +26,19 @@ public class startscreen extends World
      */
     private void prepare()
     {
-        start start = new start();
-        addObject(start,301,296);
-        start.setLocation(304,272);
-        start.setLocation(306,285);
+        kancildepan kancildepan = new kancildepan();
+        addObject(kancildepan,312,164);
+        kancildepan.setLocation(291,163);
+        kancildepan.setLocation(289,166);
+        kancildepan.setLocation(302,175);
+        kancildepan.setLocation(302,178);
+        newstart newstart = new newstart();
+        addObject(newstart,318,326);
+        newstart.setLocation(314,324);
+        newstart.setLocation(307,316);
+        newstart.setLocation(311,313);
+        exit exit = new exit();
+        addObject(exit,541,43);
+        exit.setLocation(576,23);
     }
 }

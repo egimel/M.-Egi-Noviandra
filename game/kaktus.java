@@ -14,7 +14,7 @@ public class kaktus extends Actor
      */
     int umur;
     public kaktus(){
-        umur = 200;
+        umur = 150;
     }
       public kaktus(int umur){
         this.umur = umur;
@@ -23,12 +23,7 @@ public class kaktus extends Actor
     {
         // Add your action code here.
         umur--;
-        
-            
-            
-            
-            
-            
+    
         if (umur == 0)
             getWorld().removeObject(this);
     }

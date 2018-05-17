@@ -1,18 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class start here.
+ * Write a description of class exit here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class start extends Actor
+public class exit extends Actor
 {
     /**
-     * Act - do whatever the start wants to do. This method is called whenever
+     * Act - do whatever the exit wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public start()
+      public exit()
     {
         GreenfootImage image = getImage();
         image.scale(image.getWidth() - 100, image.getHeight() - 100);
@@ -21,15 +21,6 @@ public class start extends Actor
     
     public void act() 
     {
-        Greenfoot.start();
-        tombol_klik();
         // Add your action code here.
-    }  
-    
-    public void tombol_klik(){
-        if(Greenfoot.mouseClicked(this)){
-            MyWorld MyWorld = new MyWorld();
-            Greenfoot.setWorld(MyWorld);
-        }
-    }
+    }    
 }
