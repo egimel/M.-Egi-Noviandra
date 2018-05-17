@@ -16,6 +16,7 @@ public class KANCIL extends Actor
     int skor=0;
     public void act() 
     {
+        pindah();
         // Add your action code here.
         if (Greenfoot.isKeyDown("up")) 
             move(3);
@@ -28,19 +29,23 @@ public class KANCIL extends Actor
             
         skor();
        {
-       if (isTouching(timun.class)){
-            skor++;
-            getWorld().showText("skor="+skor, 300, 300);
-        }
+       
     }
 }
     
     public void skor()
     {
-        if (isTouching(kaktus.class)){
-           Greenfoot.stop();
-           getWorld().addObject(new go() , 300, 210);
+        if (isTouching(timun.class)){
+            skor++;
+            getWorld().showText("skor="+skor, 35, 10);
         }
         
+    }
+    
+     public void pindah(){
+        if(isTouching(kaktus.class)){
+            gameover MyWorld = new gameover();
+            Greenfoot.setWorld(MyWorld);
+        }
     }
 }

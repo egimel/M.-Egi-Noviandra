@@ -19,6 +19,7 @@ public class restart extends Actor
         setImage(image);
     }
     
+    
     public void act() 
     {
         // Add your action code here.
