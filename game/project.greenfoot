@@ -1,4 +1,5 @@
 #Greenfoot properties
+<<<<<<< HEAD
 #Thu May 17 22:30:08 SGT 2018
 editor.fx.0.height=739
 target2.width=80
@@ -11,6 +12,26 @@ mainWindow.height=733
 target6.typeParameters=
 dependency9.to=start
 class.KANCIL.superclass=greenfoot.Actor
+=======
+#Thu May 17 14:46:24 SGT 2018
+target4.type=ClassTarget
+<<<<<<<=HEAD
+target8.showInterface=false
+class.gameover.image=game over.jpg
+dependency3.from=KANCIL
+target3.height=50
+target5.height=50
+readme.y=10
+dependency3.type=UsesDependency
+readme.x=10
+target4.name=start
+target8.width=80
+target4.typeParameters=
+readme.width=47
+class.start.superclass=greenfoot.Actor
+class.go.superclass=greenfoot.Actor
+editor.fx.0.width=816
+>>>>>>> e560d60cf6f0d5672c34c352b9781732cfcdc651
 target1.height=50
 class.kancildepan.superclass=greenfoot.Actor
 target13.name=kancildepan
@@ -18,6 +39,7 @@ target8.y=0
 target8.x=0
 dependency2.type=UsesDependency
 target5.type=ClassTarget
+<<<<<<< HEAD
 target6.y=0
 target6.x=0
 target1.showInterface=false
@@ -107,8 +129,66 @@ target7.y=0
 target7.x=0
 class.restart.superclass=greenfoot.Actor
 target11.typeParameters=
+=======
+target3.typeParameters=
+dependency4.from=KANCIL
+mainWindow.width=1378
+class.KANCIL.superclass=greenfoot.Actor
+dependency4.type=UsesDependency
+>>>>>>>=f61a2fbf01c52fa859e6e9f3f9e140aae6a870d5
+class.KANCIL.image=kancil baru.png
+target2.width=80
+target5.name=KANCIL
+class.mati.image=dead.jpg
+version=3.0.0
+target6.type=ClassTarget
+dependency1.to=KANCIL
+class.go.image=go.png
+target7.width=80
+dependency5.from=KANCIL
+dependency2.to=MyWorld
+target1.width=80
+dependency5.type=UsesDependency
+editor.fx.0.y=10
+target2.typeParameters=
+editor.fx.0.x=275
+target8.height=50
+dependency3.to=timun
+target3.showInterface=false
+class.kaktus.image=lol.png
+target6.name=MyWorld
+dependency4.to=go
+target7.showInterface=false
+dependency5.to=kaktus
+target8.typeParameters=
+target1.showInterface=false
+target5.showInterface=false
+dependency6.to=KANCIL
+target7.type=ClassTarget
+target6.width=80
+target6.height=50
+dependency7.to=timun
+dependency6.from=MyWorld
+package.numTargets=8
+target8.y=0
+target8.x=0
+dependency8.to=start
+target7.typeParameters=
+dependency6.type=UsesDependency
+target1.type=ClassTarget
+target7.y=0
+target7.x=0
+target7.name=startscreen
+class.startscreen.image=baaaaru1.jpg
+target6.y=0
+target1.typeParameters=
+target6.x=0
+target2.height=50
+>>>>>>> e560d60cf6f0d5672c34c352b9781732cfcdc651
 target5.y=0
+target4.height=50
 target5.x=0
+<<<<<<< HEAD
 dependency4.type=UsesDependency
 target7.type=ClassTarget
 target10.width=80
@@ -121,8 +201,31 @@ dependency7.to=timun
 target3.height=50
 class.bantuan.superclass=greenfoot.Actor
 dependency8.type=UsesDependency
+=======
+target1.name=kaktus
+class.kaktus.superclass=greenfoot.Actor
+target8.type=ClassTarget
+target4.y=0
+target4.x=0
+class.timun.image=timunbaru.png
+dependency7.from=MyWorld
+target3.y=0
+target3.x=0
+dependency7.type=UsesDependency
+target2.type=ClassTarget
+target2.y=0
+target2.x=0
+class.MyWorld.superclass=greenfoot.World
+mainWindow.y=2
+mainWindow.x=-7
+target8.name=gameover
+target6.typeParameters=
+dependency1.from=timun
+target5.width=80
+>>>>>>> e560d60cf6f0d5672c34c352b9781732cfcdc651
 target1.y=0
 target1.x=0
+<<<<<<< HEAD
 target12.type=ClassTarget
 target5.typeParameters=
 <<<<<<<=HEAD
@@ -179,4 +282,33 @@ readme.height=58
 target13.y=0
 target1.width=80
 target13.x=0
+=======
+dependency1.type=UsesDependency
+readme.height=58
+class.gameover.superclass=greenfoot.World
+target2.name=timun
+readme.name=@README
+package.numDependencies=8
+dependency8.from=startscreen
+dependency8.type=UsesDependency
+target3.type=ClassTarget
+target4.width=80
+dependency2.from=start
+dependency2.type=UsesDependency
+target5.typeParameters=
+world.lastInstantiated=startscreen
+target2.showInterface=false
+mainWindow.height=733
+class.startscreen.superclass=greenfoot.World
+target3.name=go
+target7.height=50
+target6.showInterface=false
+class.timun.superclass=greenfoot.Actor
+class.start.image=Play (2).png
+target3.width=80
+class.mati.superclass=greenfoot.World
+project.charset=UTF-8
+class.MyWorld.image=baru1.jpg
+target4.showInterface=false
+>>>>>>> e560d60cf6f0d5672c34c352b9781732cfcdc651
 =\=\=\=\=\=\=

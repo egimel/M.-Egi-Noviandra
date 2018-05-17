@@ -23,7 +23,17 @@ public class kaktus extends Actor
     {
         // Add your action code here.
         umur--;
+<<<<<<< HEAD
     
+=======
+        if (isTouching(KANCIL.class))
+            getWorld().removeObject(this);
+          
+            
+            
+            
+            
+>>>>>>> e560d60cf6f0d5672c34c352b9781732cfcdc651
         if (umur == 0)
             getWorld().removeObject(this);
     }
