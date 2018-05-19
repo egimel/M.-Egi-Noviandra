@@ -22,6 +22,14 @@ public class restart extends Actor
     
     public void act() 
     {
+        tuju();
         // Add your action code here.
-    }    
+    }
+    
+     public void tuju(){
+        if(Greenfoot.mouseClicked(this)){
+            MyWorld MyWorld = new MyWorld();
+            Greenfoot.setWorld(MyWorld);
+        }
+    }
 }

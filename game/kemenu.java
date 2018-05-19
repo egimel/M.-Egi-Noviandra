@@ -21,6 +21,14 @@ public class kemenu extends Actor
     
     public void act() 
     {
+        balikmenu();
         // Add your action code here.
-    }    
+    }
+    
+     public void balikmenu(){
+        if(Greenfoot.mouseClicked(this)){
+            startscreen awal = new startscreen();
+            Greenfoot.setWorld(awal);
+        }
+    }
 }
