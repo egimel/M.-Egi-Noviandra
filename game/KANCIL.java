@@ -13,6 +13,8 @@ public class KANCIL extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
    
+
+
     int skor=0;
     public void act() 
     {
