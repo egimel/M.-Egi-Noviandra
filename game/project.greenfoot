@@ -1,7 +1,7 @@
 #Greenfoot properties
-#Mon May 21 12:56:40 SGT 2018
+#Mon May 21 15:20:58 SGT 2018
 target2.width=80
-editor.fx.0.height=739
+editor.fx.0.height=0
 target8.name=exit
 target11.y=0
 target11.x=0
@@ -74,8 +74,8 @@ dependency7.type=UsesDependency
 class.newstart.superclass=greenfoot.Actor
 target11.type=ClassTarget
 version=3.0.0
-editor.fx.0.y=-4
-editor.fx.0.x=275
+editor.fx.0.y=0
+editor.fx.0.x=0
 dependency15.from=startscreen
 dependency6.to=go
 target2.showInterface=false
@@ -100,7 +100,7 @@ target9.height=50
 target12.y=0
 target12.x=0
 dependency10.type=UsesDependency
-editor.fx.0.width=816
+editor.fx.0.width=0
 target11.showInterface=false
 target10.y=0
 target10.x=0
